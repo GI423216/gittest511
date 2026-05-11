@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EA888AF8-73A1-DA96-CD5B-ED922A9FED47}</ProjectGuid>
+    <ProjectGuid>{8C42FC73-DB77-7BCF-2A6A-C1AC975D5E85}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -61,134 +61,7 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Description\GraphElementDescription.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Inspection\InspectorUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Plugin\BoltFlowConfiguration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Context\IGraphContext.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Inspection\InspectorProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\AssetUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginManifest.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_12.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginDependencyAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginConfigurationItemAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Ports\ValueOutputWidget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.State\States\FlowStateEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Options\UnitOptionProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\EditorFilteringUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\RuntimeGraphBase.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\ConsoleProfiler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Analytics\FlowMacroSavedEvent.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Widgets\Nodes\NodeColor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Widgets\Nodes\NodeShape.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Inspection\Unity\VectorInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\BoltCorePaths.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Assignment\AssignsAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\FrameLimiterUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Acknowledgements\Acknowledgement_NCalc.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Properties\AssemblyInfo.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_2_0.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_5.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Inspection\IndividualPropertyDrawer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Framework\Control\SwitchOnIntegerDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.State\States\FlowStateWidget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Assignment\Assignment.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Connections\ControlConnectionWidget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Options\UnitOptionFilter.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Assignment\IAssigner.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_3.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\EditorApplicationUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Meta\IndexerMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Meta\PluginConfigurationItemMetadata.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Reflection\MemberOption.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_5.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Inspection\InspectorImplementationOrderAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Meta\IndexMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\NamingSchemePage.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Meta\Metadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Ports\ValuePortDefinitionInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_0.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Inspection\Inspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Context\GraphContextMenuItem.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginContainer.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Dependencies\SQLite\SQLite.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\Clipboard.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Interface\Colors\ColorPalette.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Framework\InputSystemWidget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginMigration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\IPluginLinked.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_4.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Connections\IUnitConnectionWidget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Context\GraphSelection.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.State\States\FlowStateDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\EditorTimeUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Reflection\LooseAssemblyNameOption.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Inspection\InspectorAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\EditorSerializationUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Meta\MemberMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\BackupUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Widgets\Nodes\INodeWidget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Assignment\Assigner.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Reflection\MemberOptionTree.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.State\States\IStateWidget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\AssetBundleUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\AnnotationUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\Plugin.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Reflection\LooseAssemblyNameOptionTree.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_13.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Context\GraphContextExtensionProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\BoltFlowNameUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Widgets\StickyNote\StickyNoteEditor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\InitializeAfterPluginsAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\EditorLinqUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\EditorPrefAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_2.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Ports\ValueInputDefinitionInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Inspection\Unity\Vector3Inspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Options\UnitOptionTree.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Context\GraphContextProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Framework\MultiInputUnitNumericDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_6.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\EditorTypeUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Ports\ValueInputWidget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Description\GraphDescription.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\IPluginModule.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Widgets\Nodes\NodeWidget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Reflection\DocumentedOption.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Plugin\BoltFlow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Framework\MultiInputUnitAlphabeticDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginChangelog.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Meta\ObjectMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Widgets\Nodes\NodeColorMix.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Options\UnitOptionRow.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Debugging\GraphDebugDataProvider.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.State\States\NesterStateAnalyser.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Framework\Control\SwitchOnStringDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Context\GraphContextExtensionAttribute.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Inspection\Unity\Vector2Inspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginConfiguration.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\EditorUnityObjectUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Inspection\InspectorBlock.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Reflection\NamespaceOption.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Interface\Annotations\AnnotationDisabler.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Description\GraphDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Reflection\EnumOptionTree.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.State\States\AnyStateWidget.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Description\GraphItemDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Meta\ProjectSettingMetadata.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugins\PluginAcknowledgement.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Reflection\EnumOption.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Framework\InputActionInspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_2.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_0_1.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Utilities\DefineUtility.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.State\States\NesterStateDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_4.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Inspection\Unity\Vector4Inspector.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Framework\Control\SwitchUnitDescriptor.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_11.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Plugin\Changelogs\LegacyLudiqCore\Changelog_1_4_3.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Flow\Options\UnitOptionUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -671,6 +544,14 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEditor.OSXStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.OSXStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.VisionOS.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\VisionOSPlayer\UnityEditor.VisionOS.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
@@ -685,6 +566,14 @@
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\iOSSupport\UnityEditor.iOS.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.AppleTV.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.AppleTV.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.LinuxStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\LinuxStandaloneSupport\UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
@@ -715,8 +604,28 @@
       <HintPath>Library\PackageCache\com.unity.collab-proxy@50ac96531b63\Lib\Editor\log4netPlastic.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1b53f46e931b\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Mono.Cecil">
       <HintPath>Library\PackageCache\com.unity.nuget.mono-cecil@d6f9955a5d5f\Mono.Cecil.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Apple.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.Apple.Extensions.Common.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
@@ -737,6 +646,18 @@
     </Reference>
     <Reference Include="Unity.Android.Gradle">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\VisionOSPlayer\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.Apple.Extensions.Common">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\VisionOSPlayer\UnityEditor.Apple.Extensions.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\PlaybackEngines\MacStandaloneSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="mscorlib">
@@ -1247,18 +1168,6 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
@@ -1275,20 +1184,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Collections.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.AI.Navigation">
       <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Multiplayer.Center.Common">
-      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.AI.Navigation.Updater">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
@@ -1299,16 +1196,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Timeline">
@@ -1319,20 +1216,8 @@
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.Shared.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Mathematics">
-      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Core.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
@@ -1343,44 +1228,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
-      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Multiplayer.Center.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.State">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Sysroot.Linux_x86_64">
-      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
-    <Reference Include="Unity.Burst.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Collections">
@@ -1391,6 +1248,102 @@
       <HintPath>Library\ScriptAssemblies\PPv2URPConverters.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Toolchain.Win-x86_64-Linux-x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Toolchain.Win-x86_64-Linux-x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.State">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Sysroot.Linux_x86_64">
+      <HintPath>Library\ScriptAssemblies\Unity.Sysroot.Linux_x86_64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Burst">
       <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
       <Private>False</Private>
@@ -1399,20 +1352,16 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Rendering.LightTransport.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Rendering.LightTransport.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    <Reference Include="Unity.Rendering.LightTransport.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Rendering.LightTransport.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.InputSystem">
@@ -1423,10 +1372,14 @@
       <HintPath>Library\ScriptAssemblies\Unity.SysrootPackage.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{51CD38A0-BDF1-1E8B-6872-4EB9A243DD82}</Project>
+      <Project>{AE45C50F-5970-E874-4B7D-5D88953C2337}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
